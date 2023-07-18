@@ -19,6 +19,20 @@ h1#principal{
 h2{
     color: #005C53;
 }
+
+.basico{
+    color: #637371;
+    font-weight: bolder;
+}
+
+.intermediario{
+    color: #127369;
+}
+
+.destaque{
+    background-color: #127369;
+    border-radius: 5%;
+}
 p{
     text-indent: 15px;
     text-align: justify;
