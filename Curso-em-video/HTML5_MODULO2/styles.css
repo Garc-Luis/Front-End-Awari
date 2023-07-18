@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color: #D6D58E;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: #042940;
+}
+h1#principal{
+    background-color: #005C53;
+    padding: 10px;
+    border-radius: 10px;
+    color: #DBF227;
+    text-align: center;
+}
+
+h2{
+    color: #005C53;
+}
+p{
+    text-indent: 15px;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
