@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perzonalizando links</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        a{
+            color: black;
+            font-style: bolder;
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkslateblue;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: blue;
+        }
+
+        a::before{
+            content: "✽ ";
+        }
+        a::after{
+            content: ' ✽';
+        }
+    </style>
+</head>
+<body>
+    <h1>links</h1>
+    <li><a href="https://github.com/Garc-Luis" target="_blank">Repositorio do GitHub</a></li>
+    <li><a href="https://www.instagram.com/garcia.luis90/">Instagran</a></li>
+    <li><a href="https://www.linkedin.com/in/luisgarcia-datanalytics1807/">Site do Linkedin</a></li>
+</body>
+</html>
