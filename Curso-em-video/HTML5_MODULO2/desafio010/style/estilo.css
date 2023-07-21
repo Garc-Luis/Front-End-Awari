@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: #CEF2F2;
+}
+
+
+header{
+    background-color: #8C4A7B;
+    height: 120px;
+    width: auto;
+    text-align: center;
+    margin: 5px;
+}
+
+nav{
+    background-color: #8C4A7B;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-style: bold;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
