@@ -1,28 +1,54 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Pacifico & display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('/Curso-em-video/HTML5_MODULO2/desafio010/fontes/idroid.otf) format('opentype');
+}
+
+:root{
+    --cor01: #F2762E;
+    --cor02: #F28A2E;
+    --cor03: #04BFBF;
+    --cor04: #049DD9;
+    --cor05: #04ADBF;
+    --cor06: #F2C879;
+    --cor07: #F2AA80;
+    --cor08: #D92525;
+    --cor08: #121D59;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --font-android: 'Android', cursive;
+
+}
 
 body{
-    background-color: #BDBFAA;
+    background-color: #F2AA80;
 }
 
 
 header{
-    background-color: #D9A282;
+    background-color: var(--cor03);
+    color: black;
     height: 120px;
     width: auto;
+    border-radius: 5px;
     text-align: center;
     margin: 5px;
 }
 
 nav{
-    background-color: #0D0D0D;
+    background-color: var(--cor03);
     margin: 5px;
     padding: 5px;
+    border-radius: 5px;
     text-align: center;
 }
 nav > a{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrao);
     text-decoration: none;
-    color: #D9A282;
+    color: black;
     font-style: bold;
 }
