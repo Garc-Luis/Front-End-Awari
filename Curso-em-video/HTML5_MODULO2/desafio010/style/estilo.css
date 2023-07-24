@@ -8,12 +8,12 @@
 }
 
 body {
-    background-color: #DAFDBA;
+    background-color: #B0D9CA;
 }
 
 
 header{
-    background-color: #45C4B0;
+    background-color: #F29325;
     color: black;
     height: 120px;
     width: auto;
@@ -23,7 +23,7 @@ header{
 }
 
 nav{
-    background-color: #45C4B0;
+    background-color: #F29325;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
@@ -41,7 +41,7 @@ nav > a{
 }
 
 main{
-    background-color: #9AEBA3;
+    background-color: #B0D9CA;
     border-radius: 5px;
 
 }
@@ -51,8 +51,9 @@ main > h1{
 }
 
 footer{
-    background-color: #012030;
+    background-color: #025259;
     color: white;
     text-align: center;
+    border-radius: 5px;
 
 }
