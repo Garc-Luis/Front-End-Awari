@@ -13,13 +13,13 @@
 }
 
 body {
-    background-color: #B0D9CA;
+    background-color: #DAFDBA;
 }
 
 
 header{
-    background-color: #D94F04;
-    color: black;
+    background-color: #012030;
+    color: white;
     height: 120px;
     width: auto;
     border-radius: 5px;
@@ -28,7 +28,7 @@ header{
 }
 
 nav{
-    background-color: #D94F04;
+    background-color: #012030;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
@@ -41,19 +41,20 @@ nav > h1{
 nav > a{
     font-family: 'Bebas Neue';
     text-decoration: none;
-    color: black;
+    color: white;
     font-style: bold;
 }
 
 main{
     min-width: 300px;
     max-width: 1000px;
-    padding: 20px;
+    padding: 50px;
     margin: auto;
     background-color: #B0D9CA;
     padding: 10px;
     border-radius: 5px;
-
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.503);
+    margin-bottom: 10px;
 }
 
 main > img{
