@@ -7,13 +7,18 @@
     src: url('/Curso-em-video/HTML5_MODULO2/desafio010/fontes/idroid.otf') format('opentype');
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: #B0D9CA;
 }
 
 
 header{
-    background-color: #F29325;
+    background-color: #D94F04;
     color: black;
     height: 120px;
     width: auto;
@@ -23,7 +28,7 @@ header{
 }
 
 nav{
-    background-color: #F29325;
+    background-color: #D94F04;
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
@@ -41,9 +46,23 @@ nav > a{
 }
 
 main{
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
     background-color: #B0D9CA;
+    padding: 10px;
     border-radius: 5px;
 
+}
+
+main > img{
+    width: 100%;
+}
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 main > h1{
