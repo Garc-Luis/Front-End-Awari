@@ -18,7 +18,8 @@ body {
 
 
 header{
-    background-color: #012030;
+    background-image: linear-gradient(to bottom,#45C4B0, #012030);
+    min-width: 150px;
     color: white;
     height: 120px;
     width: auto;
@@ -27,10 +28,22 @@ header{
     margin: 5px;
 }
 
+header h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2.3em;
+}
+
+header p{
+    font-size: 1em;
+    max-width: 600px;
+    margin: auto;
+}
 nav{
     background-color: #012030;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     text-align: center;
 }
@@ -38,11 +51,20 @@ nav{
 nav > h1{
     font-family: 'Bebas Neue';
 }
-nav > a{
+nav a{
     font-family: 'Bebas Neue';
     text-decoration: none;
     color: white;
-    font-style: bold;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.8s;
+}
+
+nav a:hover{
+    background-color: #45C4B0;
+    color: black;
 }
 
 main{
