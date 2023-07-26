@@ -91,6 +91,8 @@ main img.pequena {
 main h2{
     font-family: 'Courier New', Courier, monospace, Times, serif;
     background-image: linear-gradient(to right, #042940, transparent);
+    text-indent: 10px;
+    border-radius: 5px;
 }
 
 main p{
