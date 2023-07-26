@@ -119,6 +119,14 @@ aside{
     padding: 10px;
     margin: 5px;
     border-radius: 7px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.477);
+}
+
+aside > h3{
+    background-image: linear-gradient(to right, #13678A, transparent);
+    padding: 8px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 aside > ul{
@@ -126,7 +134,6 @@ aside > ul{
     columns: 2;
 }
 footer{
-    background-color: #025259;
     color: white;
     text-align: center;
     border-radius: 5px;
