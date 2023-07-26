@@ -114,10 +114,33 @@ main a:hover{
     text-decoration: underline;
     background-color: #9FC131;
 }
+aside{
+    background-color: #9AEBA3;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
 footer{
     background-color: #025259;
     color: white;
     text-align: center;
     border-radius: 5px;
+    font-size: 0.8em;
+    padding: 5px;
+}
 
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #9FC131;
 }
