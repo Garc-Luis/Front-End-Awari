@@ -16,7 +16,6 @@ body {
     background-color: #DAFDBA;
 }
 
-
 header{
     background-image: linear-gradient(to bottom,#45C4B0, #012030);
     min-width: 150px;
@@ -88,10 +87,31 @@ main img.pequena {
     margin: auto;
 }
 
-main > h1{
-    font-family: 'Android', Times, serif;
+
+main h2{
+    font-family: 'Courier New', Courier, monospace, Times, serif;
+    background-image: linear-gradient(to right, #042940, transparent);
 }
 
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+    background-color: #D6D58E;
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    background-color: #9FC131;
+}
 footer{
     background-color: #025259;
     color: white;
