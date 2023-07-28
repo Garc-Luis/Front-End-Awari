@@ -114,6 +114,23 @@ main a:hover{
     text-decoration: underline;
     background-color: #9FC131;
 }
+
+div.video{
+    background-color: #9AEBA3;
+    margin: 0px -20px 30px -20px;
+    padding: 10px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
 aside{
     background-color: #9AEBA3;
     padding: 10px;
