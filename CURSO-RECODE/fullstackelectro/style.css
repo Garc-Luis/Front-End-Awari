@@ -1,0 +1,16 @@
+nav{
+    background-color: black;
+    border-radius: 5px;
+}
+
+nav table{
+    width: 100%;
+    text-align: center;
+}
+
+td a{
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: white;
+}
